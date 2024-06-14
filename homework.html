@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./homework.js" defer></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="product-container"></div>
+
+    <form onsubmit="handleSubmit(event)">
+        <input type="text" name="username" placeholder="Give us your Name!" required>
+        <br><br>
+        <input type="text" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <input type="text" name="message" placeholder="Write us a message" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <br><br>
+
+    <div id="box" onclick="changeColor()">Click me to change color</div>
+
+    <br><br>
+    <div id="mouse" onmouseover="handleMouseOver()">
+        Hover Over Me!
+    </div>
+</body>
+</html>
